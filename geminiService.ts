@@ -4,7 +4,7 @@ import { QuizData, MediaFile } from "./types";
 
 const API_KEY = process.env.API_KEY;
 
-
+//console.log("Adding this line to learn git ")
 
 export const generateQuiz = async (text: string, questionCount: number, media?: MediaFile): Promise<QuizData> => {
   const ai = new GoogleGenAI({ apiKey: API_KEY });
