@@ -1,0 +1,8 @@
+
+{
+  "name": "AI Quiz Master",
+  "description": "A sophisticated AI-powered quiz generator that transforms your notes and textbook images into interactive multiple-choice assessments using Gemini 3 Flash.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
